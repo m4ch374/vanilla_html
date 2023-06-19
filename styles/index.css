@@ -23,6 +23,8 @@
 #banner-btn-grp > a {
     padding: 10px 20px;
     border-radius: 50px;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
     transition: all;
     transition-duration: 300ms;
@@ -58,7 +60,7 @@
 /* Stole from Fireship.io */
 .wave {
     position: absolute;
-    bottom: -100px;
+    bottom: -70px;
     left: 0;
     right: 0;
     width: 100%;
@@ -71,7 +73,7 @@
     position: relative;
     display: block;
     width: calc(110% + 1.3px);
-    height: 180px;
+    height: 200px;
 }
 
 .wave .shape-fill {
@@ -155,6 +157,8 @@
 #ending-advert > a {
     padding: 10px 20px;
     border-radius: 50px;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
     transition: all;
     transition-duration: 300ms;

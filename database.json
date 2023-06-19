@@ -1,0 +1,10 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "86 -Eighty Six-",
+            "description": "The Republic of San Magnolia has been at war with the Empire of Giad for nine years. Though it initially suffered devastating losses to the Empire's autonomous mechanized Legions, the Republic has since developed its own autonomous units, called Juggernauts, which are directed remotely by a Handler. While on the surface, the public believes the war is being fought between machines, in reality, the Juggernauts are being piloted by humans, all of whom are \"86\"—the designation given to the Colorata minority of San Magnolia.",
+            "cover": "/assets/images/books/86_light_novel.jpg"
+        }
+    ]
+}

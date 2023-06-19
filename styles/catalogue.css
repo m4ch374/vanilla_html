@@ -1,0 +1,26 @@
+#catalogue-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(210deg, #5b5b5b, #844fb3, #ac62ed);
+    min-height: 250px;
+    font-size: 2.4rem;
+}
+
+#book-selection {
+    padding: 0 15%;
+}
+
+#book-selection > :first-child {
+    text-decoration: underline;
+    font-size: 1.8rem;
+    text-decoration-color: #5f5f5f;
+    text-decoration-thickness: 0.2rem;
+}
+
+#book-catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
