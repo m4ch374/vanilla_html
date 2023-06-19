@@ -8,6 +8,7 @@ export default defineConfig({
         catalogue: './pages/catalogue.html',
         book: './pages/book.html',
         cart: './pages/cart.html',
+        'import-assets': '/path_to_image.js'
       }
     }
   }
