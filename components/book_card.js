@@ -11,6 +11,7 @@ const BookCard = (meta_data) => {
         <div class="book-meta">
           <label>${meta_data.title}</label>
           <p>${meta_data.description}</p>
+          <label class="book-price">$${meta_data.price}</label>
         </div>
       </a>
     </div>

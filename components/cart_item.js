@@ -11,6 +11,7 @@ const CartItem = (metaData) => {
         </div>
       </div>
       <div>
+        <h1>$${metaData.price}</h1>
         <button class="cart-remove" id="cart-${metaData.id}">x</button>
       </div>
     </div>

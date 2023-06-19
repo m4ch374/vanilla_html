@@ -1,6 +1,6 @@
 .book-card {
     background-color: rgb(241, 241, 226);
-    height: 400px;
+    height: 420px;
     width: 250px;
     border-radius: 10px;
     transition: all;
@@ -20,7 +20,7 @@
 
 .img-wrapper {
     width: 100%;
-    height: 70%;
+    height: 68%;
 }
 
 .img-wrapper > img {
@@ -32,6 +32,8 @@
 
 .book-meta {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .book-meta > label {
@@ -68,4 +70,8 @@
 
 .book-card-remove {
     background-color: rgb(224, 101, 101);
+}
+
+.book-price {
+    place-self: end;
 }

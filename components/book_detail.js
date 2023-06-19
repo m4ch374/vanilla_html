@@ -8,6 +8,7 @@ const BookDetail = (meta_data) => {
         <div class="details-banner-text">
           <h1>${meta_data.title}</h1>
           <div>by ${meta_data.author}</div>
+          <div>$${meta_data.price}</div>
           <button class="select-item"></button>
         </div>
       </div>
