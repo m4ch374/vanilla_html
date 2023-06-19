@@ -10,5 +10,6 @@ export default defineConfig({
         cart: './pages/cart.html',
       }
     }
-  }
+  },
+  publicDir: "./assets"
 })
