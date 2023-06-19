@@ -51,3 +51,25 @@
     align-items: center;
     padding: 1rem;
 }
+
+#cart-subtotal {
+    font-size: 1.5rem;
+    place-self: end;
+}
+
+#actual-cart > button {
+    place-self: end;
+    color: white;
+    border: 0;
+    font-size: 1.1rem;
+    background-color: rgb(98, 187, 214);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 150ms;
+}
+
+#actual-cart > button:hover {
+    background-color: rgb(76, 149, 172);
+}

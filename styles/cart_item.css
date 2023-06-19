@@ -46,4 +46,10 @@
     border-radius: 5px;
     cursor: pointer;
     margin-left: 10px;
+    transition: all;
+    transition-duration: 150ms;
+}
+
+.cart-remove:hover {
+    background-color: rgb(187, 56, 56);
 }
