@@ -1,3 +1,4 @@
+import ImageMap from '../path_to_image'
 import '../styles/book_card.css'
 
 const BookCard = (meta_data) => {
@@ -6,7 +7,7 @@ const BookCard = (meta_data) => {
       <button class="book-card-select" id="select-${meta_data.id}">+</button>
       <a href="../pages/book.html?book=${meta_data.id}">
         <div class="img-wrapper">
-          <img alt="cover" src="${meta_data.cover}" />
+          <img alt="cover" src="${ImageMap[meta_data.cover]}" />
         </div>
         <div class="book-meta">
           <label>${meta_data.title}</label>
