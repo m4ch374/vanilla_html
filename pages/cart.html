@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Catalogue</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="../styles/global.css" />
-    <link rel="stylesheet" href="../styles/catalogue.css" />
+    <link rel="stylesheet" href="../styles/cart.css" />
   </head>
   <body>
     <div>
@@ -23,17 +23,20 @@
         </div>
       </nav>
 
-      <section id="catalogue-intro">
-        <h1>Choose your own journey!</h1>
-      </section>
-
-      <section id="book-selection">
-        <h1>Select books</h1>
-        <div id="book-catalogue">
-          <!-- handed off to js -->
+      <section id="cart-content">
+        <div id="actual-cart">
+          <div id="actual-cart-banner">
+            <h1>Shopping Cart</h1>
+            <button id="clear-cart">Clear</button>
+          </div>
+          <hr />
+          <div id="cart-items">
+            <!-- Handed off to js -->
+          </div>
         </div>
       </section>
+
     </div>
-    <script type="module" src="../scripts/catalogue.js"></script>
+    <script type="module" src="../scripts/cart.js"></script>
   </body>
 </html>

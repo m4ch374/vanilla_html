@@ -1,3 +1,5 @@
+import data from '/database.json'
+
 const selectElemHandler = (bookId) => {
   if (!localStorage.getItem("cart")) {
     localStorage.setItem("cart", JSON.stringify(['0']))
@@ -26,7 +28,18 @@ const bookSelected = (bookId) => {
   return false
 }
 
+const getCartMetaData = () => {
+  if (!localStorage.getItem("cart")) {
+    return []
+  }
+
+  const cart = JSON.parse(localStorage.getItem("cart"))
+
+  return data.books.filter(x => cart.includes(x.id.toString()))
+}
+
 export {
   selectElemHandler,
-  bookSelected
+  bookSelected,
+  getCartMetaData
 }

@@ -63,3 +63,21 @@ body {
   transition: all;
   transition-duration: 300ms;
 }
+
+#nav-bar-cart {
+  background-color: rgb(74, 150, 74);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: all;
+  transition-duration: 150ms;
+}
+
+#nav-bar-cart:hover {
+  background-color: rgb(25, 110, 25);
+}
+
+#nav-bar-cart > a {
+  color: white;
+  text-decoration: none;
+}
