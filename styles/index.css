@@ -69,17 +69,17 @@
     position: relative;
     display: block;
     width: calc(110% + 1.3px);
-    height: 160px;
+    height: 180px;
 }
 
 .wave .shape-fill {
-    fill: #1d1d1d;
+    fill: #361C4E;
 }
 
 #testimonial {
-    background-color: #1a1a1a;
+    background-color: #321a49;
     width: 100vw;
-    margin: 110px;
+    margin-top: 110px;
     padding: 10px;
     margin-bottom: 0;
     display: flex;
@@ -105,24 +105,24 @@
 }
 
 #testimonial-grid > :first-child {
-    background-color: rgb(126, 216, 252);
+    background: linear-gradient(195deg, #7ed8fc, #7eb6ee, rgba(128,155,222,1));
     color: rgb(56, 56, 56);
 }
 
 #testimonial-grid > :nth-child(2) {
     grid-column: span 2;
-    background-color: rgb(248, 155, 93);
+    background: linear-gradient(135deg, #f89b5d, #efac69, rgba(230,184,116,1));
     color: rgb(56, 56, 56);
 }
 
 #testimonial-grid > :nth-child(3) {
     grid-column: span 2;
-    background-color: rgb(154, 247, 125);
+    background: linear-gradient(150deg, #9af77d, #c5f382, rgba(233,239,135,1));
     color: rgb(56, 56, 56);
 }
 
 #testimonial-grid > :last-child {
-    background-color: rgb(233, 125, 247);
+    background: linear-gradient(210deg, #e97df7, #cc6ff2, rgba(172,98,237,1));
     color: rgb(56, 56, 56);
 }
 
@@ -137,14 +137,14 @@
 }
 
 .testimonial-card:hover {
-    filter: drop-shadow(0 0 1em #9c974daa);
+    filter: drop-shadow(0 0 1em #e4da58aa);
 }
 
 #ending-advert {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1a1a1a;
+    background-color: #321a49;
     padding-top: 3rem;
     padding-bottom: 8rem;
     font-size: 2.6rem;
@@ -159,4 +159,3 @@
     background-color: rgb(117, 204, 238);
     font-size: 2rem;
 }
-
