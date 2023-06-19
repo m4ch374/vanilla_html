@@ -5,6 +5,7 @@
     border-radius: 10px;
     transition: all;
     transition-duration: 300ms;
+    position: relative;
 }
 
 .book-card > a {
@@ -46,4 +47,25 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+}
+
+.book-card-select {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.book-card-add {
+    background-color: rgb(87, 177, 87);
+}
+
+.book-card-remove {
+    background-color: rgb(224, 101, 101);
 }
