@@ -7,8 +7,8 @@ const BookDetail = (meta_data) => {
         <img alt="cover" src="${meta_data.cover}" />
         <div class="details-banner-text">
           <h1>${meta_data.title}</h1>
-          <div>by some random dude</div>
-          <button class="add-item">Add to cart</button>
+          <div>by ${meta_data.author}</div>
+          <button class="select-item"></button>
         </div>
       </div>
 
