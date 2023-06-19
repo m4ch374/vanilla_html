@@ -5,6 +5,30 @@
             "title": "86 -Eighty Six-",
             "description": "The Republic of San Magnolia has been at war with the Empire of Giad for nine years. Though it initially suffered devastating losses to the Empire's autonomous mechanized Legions, the Republic has since developed its own autonomous units, called Juggernauts, which are directed remotely by a Handler. While on the surface, the public believes the war is being fought between machines, in reality, the Juggernauts are being piloted by humans, all of whom are \"86\"—the designation given to the Colorata minority of San Magnolia.",
             "cover": "/assets/images/books/86_light_novel.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Vinland Saga",
+            "description": "In 1013 AD, the young Thorfinn works for Askeladd in the hopes of challenging him to a duel and killing him in revenge for his father Thors' death, when they were attacked by him on a journey to England. Askeladd's company finds employment as mercenaries under King Sweyn in the Danish invasion of London by the British and Thorkell the Tall, Thorfinn's uncle who served with Thors in the Jomsvikings.",
+            "cover": "/assets/images/books/vinland_saga_cover.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Violet Evergarden",
+            "description": "The story follows Violet Evergarden's journey of reintegrating back into society after the war is over as she is no longer a soldier, and her search for her life's purpose in order to understand the last words her mentor and guardian, Major Gilbert, had said to her: \"I love you.\"",
+            "cover": "/assets/images/books/violet_evergarden_cover.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Attack on Titan",
+            "description": "Eren Yeager is a boy who lives in the town of Shiganshina, located on the outermost of three circular walls which protect their inhabitants from Titans. In the year 845, the first wall (Wall Maria) is breached by two new types of Titans, the Colossal Titan and the Armored Titan. During the incident, Eren's mother is eaten by a Smiling Titan while Eren escapes. He swears revenge on all Titans and enlists in the military along with his childhood friends Mikasa Ackerman and Armin Arlert.",
+            "cover": "/assets/images/books/attack_on_titan_cover.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Frieren: Beyond Journey's End",
+            "description": "The story follows elven mage Frieren, a former member of the party of adventurers who defeated the Demon King and restored harmony to the world after a ten-years-quest. In the past, the heroic group included Frieren, human hero Himmel, dwarven warrior Eisen and human priest Heiter. Before they part, they observe the Era Meteors together, a meteor shower that occurs once in fifty years. Frieren agrees to see them again and offer them a better view the next time the celestial event occurs. Frieren then departs and travels the world in pursuit of magical knowledge. Frieren returns to the capital fifty years later; however, humanity has changed, and her former companions have distinctly aged.",
+            "cover": "/assets/images/books/beyond_journeys_end_cover.jpg"
         }
     ]
 }
