@@ -10,6 +10,7 @@
 
 #book-selection {
     padding: 0 15%;
+    margin-bottom: 80px;
 }
 
 #book-selection > :first-child {

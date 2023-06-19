@@ -1,11 +1,15 @@
 .book-card {
     background-color: rgb(241, 241, 226);
-    color: rgb(41, 41, 41);
     height: 400px;
     width: 250px;
     border-radius: 10px;
     transition: all;
     transition-duration: 300ms;
+}
+
+.book-card > a {
+    color: rgb(41, 41, 41);
+    text-decoration: none;
 }
 
 .book-card:hover {
