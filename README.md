@@ -1,3 +1,4 @@
 # vanilla_html
 An experimental project, curious on how well I could code a website ussing vanilla HTML, CSS and JS
-deployed website: https://vanilla-html.vercel.app/
+
+#### Deployed website: https://vanilla-html.vercel.app/

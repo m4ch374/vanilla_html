@@ -12,6 +12,15 @@ const removeCartItem = (bookId) => {
   document.querySelector("#cart-items").removeChild(cartItem)
 }
 
+const clearCart = () => {
+  if (localStorage.getItem("cart")) {
+    localStorage.removeItem("cart")
+    document.querySelector("#cart-items").remove()
+    metaDatum = []
+    document.querySelector("#cart-subtotal").textContent = "$0.00"
+  }
+}
+
 const updateSubtotal = () => {
   const subtotal = metaDatum.reduce((acc, x) => {
     return acc + parseFloat(x.price)
@@ -30,13 +39,11 @@ document.querySelectorAll(".cart-remove").forEach(x => {
   })
 })
 
-document.querySelector("#clear-cart").addEventListener("click", () => {
-  if (localStorage.getItem("cart")) {
-    localStorage.removeItem("cart")
-    document.querySelector("#cart-items").remove()
-    metaDatum = []
-    document.querySelector("#cart-subtotal").textContent = "$0.00"
-  }
+document.querySelector("#clear-cart").addEventListener("click", clearCart)
+
+document.querySelector("#buy-button").addEventListener("click", () => {
+  clearCart()
+  alert("You bought some books")
 })
 
 updateSubtotal()

@@ -1,10 +1,11 @@
+import ImageMap from '../path_to_image'
 import '../styles/cart_item.css'
 
 const CartItem = (metaData) => {
   return `
     <div class="shoping-cart-item-wrapper" id="book-${metaData.id}">
       <div class="shopping-cart-item-banner">
-        <img alt="cover" src="${metaData.cover}">
+        <img alt="cover" src="${ImageMap[metaData.cover]}">
         <div>
           <h1>${metaData.title}</h1>
           <span>by ${metaData.author}</span>
