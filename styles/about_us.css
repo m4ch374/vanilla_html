@@ -59,6 +59,16 @@
     height: 230px;
 }
 
+#vid-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: #250936;
+}
+
+#vid {
+    border: 0;
+}
+
 #about-last {
     margin: 80px 0;
     display: flex;
